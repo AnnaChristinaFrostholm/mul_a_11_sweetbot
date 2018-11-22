@@ -91,8 +91,7 @@ body, html {
 .search-form {
     margin: 2px;
     float: right;
-    
-	    display: inline-flex;
+    display: inline-flex;
 }
 input[type=text] {
     padding: 7px;
@@ -102,7 +101,6 @@ input[type=text] {
 }
 button {
     float: right;
-   
     color: black;
     border: none;
     border-radius: 3px;
@@ -110,7 +108,7 @@ button {
     height: 36px;
     width: 60px;
     outline: 1px solid grey;
-	margin-right: 8px;
+    margin-right: 8px;
 }
 /* ----------- ------------ */
 /* slideshowet på forsiden */
@@ -137,44 +135,52 @@ button {
 /* her kommer det statiske billede under slideshowet */
 
 #hotbotE {
-	display: block;
-	position: absolute;
-	top:10%;
-	left: 12.2%
-	 
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 12.2%
 }
-
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
+ @-webkit-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+opacity:1;
+}
+}
+@-moz-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+opacity:1;
+}
+}
+@keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+opacity:1;
+}
+}
 .fade-in {
- opacity:0;  /* make things invisible upon start */
- -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
- -moz-animation:fadeIn ease-in 1;
- animation:fadeIn ease-in 1;
- 
- -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
- -moz-animation-fill-mode:forwards;
- animation-fill-mode:forwards;
- 
- -webkit-animation-duration:1s;
- -moz-animation-duration:1s;
- animation-duration:1s;
+    opacity: 0;  /* make things invisible upon start */
+    -webkit-animation: fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
 }
-
-.fade-in one{
--webkit-animation-delay: 2.5s;
--moz-animation-delay: 2.5s;
-animation-delay: 2.5s;
+.fade-in one {
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-delay: 2.5s;
+    animation-delay: 2.5s;
 }
- 
-
-
-
-
-
-
 /* sektionerne services, om os & kontakt */
 .Services-light {
     background-color: #B5B2B0;
@@ -183,7 +189,7 @@ animation-delay: 2.5s;
     opacity: 0.8;
 }
 #Projekter {
-	margin-top: 22%;
+    margin-top: 22%;
 }
 h2 {
     text-align: center;
@@ -202,29 +208,25 @@ h2 {
     margin-top: 20px;
 }
 #services-img .box {
-	float:left;
-	text-align: center;
-	width:30%;
-	padding: 10px;
-	
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
 }
 #services-img .box img {
-	width:330px;
+    width: 330px;
 }
-
 /* Overlay til webudvk. security, supreme */
 .img1 {
-	margin-left: 10%;
+    margin-left: 10%;
     opacity: 1;
     display: block;
     transition: .5s ease;
     backface-visibility: hidden;
 }
-   
 .webudviklingoverlay {
-	width: auto;
+    width: auto;
 }
-
 /* overlay til webudvikling billede */
 
 #overlay {
@@ -240,31 +242,25 @@ h2 {
     z-index: 2;
     cursor: pointer;
 }
-
-#text{
+#text {
     position: absolute;
     top: 50%;
     left: 52%;
     font-size: 50px;
     color: white;
-    
-    -ms-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
-.webudviklingoverlay{
-	position: absolute;
-	margin-top: 7%;
-	margin-left: 7%;
-	background: #C9DB50;
-	font-size: 20px;
-	color: white;
-	width:auto;
-	border: none;
-	
-	
+.webudviklingoverlay {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 7%;
+    background: #C9DB50;
+    font-size: 20px;
+    color: white;
+    width: auto;
+    border: none;
 }
-
-
 /* Projekter (billede sektion) */
 .flex-container {
     display: flex;
@@ -297,22 +293,18 @@ h2 {
 ul {
     list-style-type: none;
 }
-
 #CEO {
-	margin-top:20px;
-	display: flex;
+    margin-top: 20px;
+    display: flex;
 }
 #CEO .ceobox {
-	width: 30%;
-	text-align: center;
-	margin-left: 13%;
+    width: 30%;
+    text-align: center;
+    margin-left: 13%;
 }
-
 #CEO .ceobox img {
-	height: 270px;
+    height: 270px;
 }
-
-
 footer {
     background-color: #B5B2B0;
     border-left: solid black;
@@ -320,260 +312,197 @@ footer {
 }
 .footercontact {
     display: inline-block;
-	width: 36%;
-	margin-left: 20%
+    width: 36%;
+    margin-left: 20%
 }
 .klassisk-ikon {
-	height: 60px;
-	width: auto;
-	position: relative;
-	float: left;
-	clear: left;
+    height: 60px;
+    width: auto;
+    position: relative;
+    float: left;
+    clear: left;
 }
-.ikontext{
-	position: relative;
-	float: right;
-	clear: right;
+.ikontext {
+    position: relative;
+    float: right;
+    clear: right;
 }
-.ia{
-	margin-right: 30%
+.ia {
+    margin-right: 30%
 }
-.ib{
-	margin-right: 12.5%
+.ib {
+    margin-right: 12.5%
 }
-.id{
-	margin-right: 5.5%
+.id {
+    margin-right: 5.5%
 }
-
 .footercontactbox {
-	width:auto;
+    width: auto;
     margin-left: 40%;
 }
 .footercontact2 {
-	display: inline-block;
+    display: inline-block;
 }
-
 .facebook, .Linkedin, .Instagram, .Twitter {
-	height: 70px;
+    height: 70px;
 }
-
-
 hr {
-	width: 50%
+    width: 50%
 }
 .klassisk-ikon {
-	height: 60px;
-	width: auto;
+    height: 60px;
+    width: auto;
 }
 /* Burger menu til mobile first */
-#burgermenu{
-	display:none;
+#burgermenu {
+    display: none;
 }
-.burger-button{
-	background-color: white;
+.burger-button {
+    background-color: white;
     color: white;
     padding: 16px;
     font-size: 16px;
-  	border: 0;
+    border: 0;
     cursor: pointer;
 }
-.burgerdown{
-	position: relative;
+.burgerdown {
+    position: relative;
     display: block;
-	float: right;
-	color: #B5B2B0;
-	
+    float: right;
+    color: #B5B2B0;
 }
-.burger-content{
-	display: none;
+.burger-content {
+    display: none;
     position: inherit;
     background-color: #ddd;
     min-width: 10%;
     box-shadow: 0px 8px 8px 0px rgba(147,147,147,0.05);
     z-index: 1;
 }
-.burger-content a{
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;  
+.burger-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
-.burger-content a:hover{
-	Background-color: #B5B2B0; 
+.burger-content a:hover {
+    Background-color: #B5B2B0;
 }
-.burgerdown:hover .burger-content{
-	display: block;
+.burgerdown:hover .burger-content {
+    display: block;
 }
-.burgerdown:hover .burger-button{
-	background-color: none;
-	position: relative;
+.burgerdown:hover .burger-button {
+    background-color: none;
+    position: relative;
 }
+
 /* ------------ - --------------- */
 
-@media(min-width: 570px) 
-	and (max-width : 1024px) {
-		
-	#header-a, #header-b, #header-c, #header-d, #header-e {
-		display: none;
-		}
-		
-		#sweetbotlogo {
-			height: 70px
-		}
-		.navigation {
+@media(min-width: 570px)  and (max-width : 1024px) {
+#header-a, #header-b, #header-c, #header-d, #header-e {
+    display: none;
+}
+#sweetbotlogo {
+    height: 70px
+}
+.navigation {
     width: 100%;
-	height: 70px;
+    height: 70px;
 }
-		#hotbotE {
-		margin-left: -10%;
-	}
-		#burgermenu {
-		display: block;
-		margin-right: 90px;
-			margin-top: 15px;
-		padding: 0 5px;
-		
-	}
-		#services-img {
-		width:auto;
-		padding: 5px;
-		margin: 5px;
-		
-	}
-		.webudviklingoverlay {
-			margin-top: 11%
-		}
-		#Projekter {
-			margin-top: 25%
-		}
-		.pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
-		height: 150px;
-		width: auto;
-		
-		margin-bottom: 25%;
-	
-	}
-		.flex-container {
-			width:90%;
-			margin-left: 25%
-		}
-		
-		.footercontact {
-			width:auto;
-		}
+#hotbotE {
+    margin-left: -10%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#burgermenu {
+    display: block;
+    margin-right: 90px;
+    margin-top: 15px;
+    padding: 0 5px;
+}
+#services-img {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+}
+.webudviklingoverlay {
+    margin-top: 11%
+}
+#Projekter {
+    margin-top: 25%
+}
+.pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
+    height: 150px;
+    width: auto;
+    margin-bottom: 25%;
+}
+.flex-container {
+    width: 90%;
+    margin-left: 25%
+}
+.footercontact {
+    width: auto;
+}
+}
 
 @media(max-width : 568px ) {
 .navigation {
     width: 100%;
-	height: 50px;
+    height: 50px;
 }
-	
-	#header-a, #header-b, #header-c, #header-d, #header-e {
-		display: none;
-	}
+#header-a, #header-b, #header-c, #header-d, #header-e {
+    display: none;
+}
 #slideshow {
     display: none;
 }
-	
-	
-	#hotbotE {
-		display: none;
-	}
-	
-	.tlf-billede {
-		background-image: url("hot_bot_logo_alene.png");
-		width:auto;
-		height: 450px;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	#services-img {
-		display:block;
-	}
-	
-	
-	
-	#services-img {
-		width:17%;
-		margin-left: 9%
-		
-	}
-	
-	.webudviklingoverlay {
-		position: absolute;
-		margin-top: 20%;
-		margin-left: 20%
-	}
-	
-	#Projekter {
-		margin-top: 180%;
-	}
-	
-	.pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
-		height: 200px;
-		width: auto;
-		
-		margin-bottom: 30%;
-	
-	}
-	
-	#Om-os{
-		padding: 0;
-	}
+#hotbotE {
+    display: none;
+}
+.tlf-billede {
+    background-image: url("hot_bot_logo_alene.png");
+    width: auto;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#services-img {
+    display: block;
+}
+#services-img {
+    width: 17%;
+    margin-left: 9%
+}
+.webudviklingoverlay {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 20%
+}
+#Projekter {
+    margin-top: 180%;
+}
+.pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
+    height: 200px;
+    width: auto;
+    margin-bottom: 30%;
+}
+#Om-os {
+    padding: 0;
+}
 #sweetbotlogo {
-	width: auto;
-	height: 50px;
+    width: auto;
+    height: 50px;
 }
-
-	.dropbtn {
-		margin-top: 5px;
-		
-	}
-	
-	#burgermenu {
-		display: block;
-		margin-right: 90px;
-		padding: 0 5px;
-		
-	}
-	
-	.footercontact {
-		width: auto;
-	}
-
-	.footercontact2 {
-		margin-left:-20%
-	}
-	
-	
-	
-	
-	
+.dropbtn {
+    margin-top: 5px;
 }
-
-
-
-
-
-
-
-
+#burgermenu {
+    display: block;
+    margin-right: 90px;
+    padding: 0 5px;
+}
+.footercontact {
+    width: auto;
+}
+.footercontact2 {
+    margin-left: -20%
+}
+}
