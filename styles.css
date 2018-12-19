@@ -139,7 +139,7 @@ button {
     display: block;
     position: absolute;
     top: 10%;
-    left: 12.2%
+    left: 11.7%
 }
  @-webkit-keyframes fadeIn {
 from {
@@ -211,7 +211,7 @@ h2 {
 
 #services-img {
     
-	margin: 3% 15%;
+	margin: 3% 15%
 	
 }
 #services-img .box {
@@ -449,15 +449,15 @@ hr {
     margin-bottom: 25%;
 }
 .flex-container {
-    width: 90%;
-    margin-left: 25%
+    width: 80%;
+    
 }
 .footercontact {
     width: auto;
 }
 }
 
-@media(max-width : 568px ) {
+@media(max-width : 767px ) {
 .navigation {
     width: 100%;
     height: 50px;
@@ -484,15 +484,24 @@ hr {
 }
 #services-img {
     width: 17%;
-    margin-left: 9%
+	margin-left:10%
+	
 }
+	.flex-container {
+		max-width: 80%;
+    width: 80%;
+    
+}
+	.dropbtn {
+		display:none;
+	}
 .webudviklingoverlay {
     position: absolute;
     margin-top: 20%;
     margin-left: 20%
 }
 #Projekter {
-    margin-top: 205%;
+    margin-top: 220%;
 }
 	#textlorem {
 		column-count: 1;
@@ -519,17 +528,16 @@ hr {
 .dropbtn {
     margin-top: 5px;
 }
-	.knap3 {
-		margin-left: 10%;
-	}
+
 #burgermenu {
     display: block;
-    margin-right: 65px;
+    
     padding: 0 5px;
 	
 }
 .footercontact {
-    width: auto;
+    max-width: 80%;
+	width:50%;
 }
 .footercontact2 {
     margin-left: -20%
