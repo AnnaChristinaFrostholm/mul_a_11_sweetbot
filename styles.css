@@ -189,9 +189,8 @@ opacity:1;
     padding-bottom: 2.5%;
     opacity: 0.8;
 }
-#Projekter {
-    margin-top: 22%;
-}
+
+
 h2 {
     text-align: center;
 }
@@ -209,20 +208,14 @@ h2 {
 }
 /*Her styles der på billederne i undersektionerne*/
 
-#services-img {
-    
-	margin: 3% 15%
-	
+.grid.grid-pad {
+	width: auto;
 }
-#services-img .box {
-    float: left;
-    
-    
-    padding: 10px;
-	
+.grid.grid-pad img {
+	width: auto;
+	height: 200px;
 }
-#services-img .box img {
-    width: 330px;
+.grid.grid-pad.col-1-6 {
 	
 }
 /* Overlay til webudvk. security, supreme */
@@ -260,42 +253,10 @@ h2 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.knap1 {
-	margin-right: 40%;
-	width: auto;
-}
-.knap2 {
-	margin-right: 40%;
-	width: auto;
-}
-.knap3 {
-	margin-right: 15%;
-	margin-top: .5%;
-	width: auto;
-}
-/* Projekter (billede sektion) */
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-	
-}
-.pic2 img, .pic3 img, .pic4 img, .pic5 img, .pic6 img, .pic7 img {
-    width: auto;
-    height: 300px;
-    position: relative;
-    padding: 30px;
-	margin: 0 auto;
-}
-/* overlay*/
-.flex-container div img {
-    position: relative;
-    overflow: hidden;
-    max-width: 100%;
-    transition: transform 2s;
-}
-.flex-container div img:hover {
-    transform: scale(1.1);
-}
+
+
+
+
 /* Kontakt sektion */
 .kontakt {
     text-align: center;
@@ -432,26 +393,9 @@ hr {
     margin-top: 15px;
     padding: 0 5px;
 }
-#services-img {
-    width: auto;
-    padding: 5px;
-    margin: 5px;
-}
-.webudviklingoverlay {
-    margin-top: 11%
-}
-#Projekter {
-    margin-top: 25%
-}
-.pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
-    height: 150px;
-    width: auto;
-    margin-bottom: 25%;
-}
-.flex-container {
-    width: 80%;
-    
-}
+
+  
+
 .footercontact {
     width: auto;
 }
@@ -479,30 +423,19 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#services-img {
-    display: block;
-}
-#services-img {
-    width: 17%;
-	margin-left:10%
-	
-}
-	.flex-container {
-		max-width: 80%;
-    width: 80%;
-    
-}
+
+	.grid.grid-pad {
+		max-width: 500px;
+	}
+	.grid.grid-pad img {
+		width:100%;
+		height: 100px;
+	}
 	.dropbtn {
 		display:none;
 	}
-.webudviklingoverlay {
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 20%
-}
-#Projekter {
-    margin-top: 220%;
-}
+
+
 	#textlorem {
 		column-count: 1;
 		max-width: 400px;
@@ -511,16 +444,8 @@ hr {
 		column-count: 1;
 		max-width: 400px;
 	}
-.pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
-    height: 200px;
-    width: auto;
-    margin-bottom: 30%;
-	left:0;
-}
-#Om-os {
-    padding: 0;
-	margin-top: 10%;
-}
+
+
 #sweetbotlogo {
     width: auto;
     height: 50px;
