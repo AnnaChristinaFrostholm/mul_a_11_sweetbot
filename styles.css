@@ -215,9 +215,8 @@ h2 {
 	width: auto;
 	height: 200px;
 }
-.grid.grid-pad.col-1-6 {
 	
-}
+
 /* Overlay til webudvk. security, supreme */
 .img1 {
     margin: 0 auto;
@@ -226,33 +225,40 @@ h2 {
     transition: .5s ease;
     backface-visibility: hidden;
 }
-.webudviklingoverlay {
-    width: auto;
-}
-/* overlay til webudvikling billede */
 
-#overlay {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-    background-color: rgba(0,0,0,0.9);
-    z-index: 2;
-    cursor: pointer;
+/* overlay til webudvikling billede */
+	.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
 }
-#text {
-    position: absolute;
-    top: 50%;
-    left: 52%;
-    font-size: 50px;
-    color: white;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 147%;
+  transition: .5s ease;
+  opacity:0;
+  margin-bottom: 4px;
+
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
 
 
 
@@ -419,7 +425,7 @@ hr {
 .tlf-billede {
     background-image: url("hot_bot_logo_alene.png");
     width: auto;
-    height: 300px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -438,11 +444,11 @@ hr {
 
 	#textlorem {
 		column-count: 1;
-		max-width: 400px;
+		max-width: 300px;
 	}
 	#textlorem1 {
 		column-count: 1;
-		max-width: 400px;
+		max-width: 300px;
 	}
 
 
@@ -465,7 +471,7 @@ hr {
 	width:50%;
 }
 .footercontact2 {
-    margin-left: -20%
+    margin-left: -50%
 }
 	#text{
 		font-size: 10px;
